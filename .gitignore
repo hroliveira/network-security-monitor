@@ -1,0 +1,11 @@
+# Ignore docker and system files
+.env
+.DS_Store
+
+# Logs
+*.log
+*.pcap
+
+# Ignore Suricata local config if auto-generated, but normally we version it.
+# We will version suricata.yaml but ignore rules if they are downloaded.
+suricata/rules/
